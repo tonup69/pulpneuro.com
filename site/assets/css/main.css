@@ -100,8 +100,6 @@ em { font-style: italic; }
 .nav-logo img {
   height: 44px;
   width: auto;
-  /* invert black to white for dark nav background */
-  filter: invert(1) hue-rotate(200deg) saturate(3) brightness(1.2);
 }
 .nav-links {
   display: flex; align-items: center; gap: 32px; list-style: none;
@@ -158,7 +156,6 @@ em { font-style: italic; }
 
 .hero-logo {
   height: 70px; width: auto; margin-bottom: 2rem;
-  filter: invert(1) hue-rotate(200deg) saturate(3) brightness(1.2);
 }
 .hero-tagline {
   font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em;
@@ -317,7 +314,7 @@ em { font-style: italic; }
   padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 @media (max-width: 640px) { .footer-inner { grid-template-columns: 1fr; gap: 40px; } }
-.footer-logo { height: 50px; width: auto; margin-bottom: 16px; filter: invert(1) hue-rotate(200deg) saturate(3) brightness(1.2); }
+.footer-logo { height: 50px; width: auto; margin-bottom: 16px; }
 .footer-brand p { font-size: 0.88rem; line-height: 1.6; color: rgba(255,255,255,0.45); }
 .footer-location { font-size: 0.76rem; color: rgba(255,255,255,0.3); margin-top: 6px; }
 .footer-links { display: flex; gap: 48px; }
