@@ -382,10 +382,10 @@ em { font-style: italic; }
 .disease-stats-box {
   background: var(--blue-light); border-radius: var(--radius-lg); padding: 22px; align-self: start;
 }
-.ds-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(27,59,204,0.1); font-size: 0.86rem; }
+.ds-row { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid rgba(27,59,204,0.1); font-size: 0.86rem; }
 .ds-row:last-child { border: none; }
-.ds-label { color: var(--gray-700); }
-.ds-val { font-weight: 600; color: var(--blue); }
+.ds-label { color: var(--gray-700); flex-shrink: 0; }
+.ds-val { font-weight: 600; color: var(--blue); text-align: right; }
 
 /* ---- CONTACT ---- */
 .contact-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; margin-top: 3rem; }
