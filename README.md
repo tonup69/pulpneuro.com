@@ -18,5 +18,6 @@ Push to GitHub → GitHub Pages serves automatically.
 pulpneuro.com DNS points to GitHub Pages via CNAME.
 
 ## Contact form
-Replace `REPLACE_WITH_FORMSPREE_ID` in contact.html with your Formspree form ID.
-Free tier at formspree.io (50 submissions/month).
+The form in `contact.html` posts to Web3Forms (https://api.web3forms.com/submit).
+Submissions are tied to the access key in the form's hidden `access_key` field;
+manage the key and notification email at web3forms.com.
