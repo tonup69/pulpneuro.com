@@ -410,3 +410,9 @@ em { font-style: italic; }
   border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
   object-fit: cover;
 }
+
+/* Team & advisor rows: stack on mobile */
+@media (max-width: 640px) {
+  .person-row { grid-template-columns: 1fr !important; gap: 24px !important; }
+  .person-row > div:first-child { max-width: 200px; }
+}
